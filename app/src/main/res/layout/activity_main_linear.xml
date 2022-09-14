@@ -3,12 +3,21 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_pokemon"/>
 
     <TextView
         android:id="@+id/tv_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:text="@string/text_placeholder_name"
         android:textSize="18sp"
@@ -17,18 +26,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        android:text="@string/text_placeholder_age"
+        android:textAlignment="center"
+        android:text="@string/text_placeholder_type"
         android:textColor="@color/black"
         android:textSize="16sp"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:padding="8dp"
-        android:text="@string/text_placeholder_job"
+        android:text="@string/text_placeholder_gen"
         android:textColor="@color/black"
         android:textSize="16sp"
         />
 
-    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_decline"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_okay"/>
+
+    </LinearLayout>
+
+
 </LinearLayout>

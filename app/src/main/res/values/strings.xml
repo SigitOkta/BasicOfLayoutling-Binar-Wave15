@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">BasicOfLayoutling-Binar-Wave15</string>
-    <string name="text_placeholder_name">Nama : Sigit Oktabriana</string>
-    <string name="text_placeholder_age">Umur : 25 Tahun</string>
-    <string name="text_placeholder_job">Pekerjaan : Bos Amin</string>
+    <string name="text_placeholder_name">Nama : Cyndaquil</string>
+    <string name="text_placeholder_type">Tipe : File</string>
+    <string name="text_placeholder_gen">Gen : 2</string>
 </resources>
